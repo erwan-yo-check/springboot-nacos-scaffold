@@ -25,7 +25,7 @@
         </dependency>
         <dependency>
             <groupId>org.xlw.common</groupId>
-            <artifactId>xlw-tool</artifactId>
+            <artifactId>tool-nacos</artifactId>
         </dependency>
 
         <!--        外部依赖-->

@@ -2,6 +2,7 @@ package org.xlw.common.web.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.xlw.common.web.config.NacosBusinessConfig;
 
 /**
  * Description: check_yo
@@ -14,6 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/hello")
     public String test() {
-        return "Test Hello";
+        return NacosBusinessConfig.getInstance().toString();
     }
 }
